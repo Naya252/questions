@@ -1,0 +1,107 @@
+@import '~vuetify/src/styles/styles.sass';
+
+$color-link: #28d6aa;
+$active-color: #4897df;
+$text-color: #212229;
+$text-color-dark: #70737c;
+$head-color: #494c57;
+$cancel-color: #70737c;
+$danger-color: #dc3545;
+$active-form-color: #2682d9;
+
+$text-field-outlined-fieldset-border: 1px solid currentColor !default;
+$pagination-item-height: 24px !default;
+$pagination-item-min-width: 24px !default;
+$pagination-navigation-height: 24px !default;
+$pagination-navigation-width: 24px !default;
+$dialog-margin: 0 !default;
+
+html {
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cecece;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bcd7f0;
+  }
+}
+
+#app.theme--dark,
+#app.v-application.theme--dark,
+.v-application.theme--dark {
+  color: $text-color-dark;
+
+  ::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #101010;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000;
+  }
+}
+
+#app,
+#app.v-application,
+.v-application {
+  color: $text-color;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cecece;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bcd7f0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.menuBtn.v-btn.v-btn--icon {
+  color: #fff;
+}
+
+.noBreak {
+  word-break: normal !important;
+}
+
+.TitlePages {
+  margin: 0 auto !important;
+  font-size: 2em !important;
+  text-align: center !important;
+  line-height: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .TitlePages {
+    font-size: 3em !important;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
