@@ -105,7 +105,7 @@ router.put("/dislike/:id", async (req, res) => {
 });
 
 
-const url = process.env.MONGO_URL;
+const url = process.env.MONGO_URL || `mongodb://localhost:27017/allquestions`;
 
 
 async function  loadQuestionsCollection() {
@@ -113,7 +113,7 @@ async function  loadQuestionsCollection() {
         useNewUrlParser: true
     });
 
-    return client.db('allquestions').collection('quests');
+    return client.db('allquestions').collection('questions');
     
 }
 
