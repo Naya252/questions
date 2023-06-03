@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../sass/variables.scss';
+@import '~/src/sass/style.scss';
 
 .center {
   display: flex;

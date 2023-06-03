@@ -50,6 +50,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~/src/sass/style.scss';
 .v-toolbar__content,
 .v-toolbar__extension {
   padding: 0 !important;

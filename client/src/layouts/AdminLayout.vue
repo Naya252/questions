@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/src/sass/style.scss';
 .admin-layout-wrap {
   // width: 100%;
   height: 100vh;
