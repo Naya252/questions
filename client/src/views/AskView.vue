@@ -5,13 +5,13 @@
     align-center
     fluid
     class="pa-0"
-    style="height: 100%"
+    style="height: calc(100% - 40px)"
   >
-    <v-flex xs12 style="height: 100vh">
-      <div class="introT" style="height: 100vh; width: 100vw">
+    <v-flex xs12 style="height: 100%">
+      <div class="introT" style="height: 100%; width: 100vw">
         <div class="videoPly" style="width: 100vw">
           <video
-            style="width: 100vw; height: 100vh"
+            style="width: 100vw; height: 100%"
             class="videoMedia"
             :src="require('../assets/video/video.mp4')"
             autoplay
@@ -256,7 +256,7 @@ export default {
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .videoPly {
@@ -267,10 +267,10 @@ export default {
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
-  height: calc(100vh);
+  height: calc(100%);
   min-height: 300px;
   // margin-top: 65px;
-  max-height: calc(100vh);
+  max-height: calc(100%);
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -290,7 +290,7 @@ export default {
 }
 
 .videoPly {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -308,7 +308,7 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
   }
 }
@@ -340,7 +340,7 @@ export default {
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   position: relative;
   text-align: center;
   width: 100%;
