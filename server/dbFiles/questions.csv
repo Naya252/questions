@@ -1,0 +1,23 @@
+_id,answerAt,comment,createdAt,dislikes,likes,name,status,text,title,views
+622507f6f5216050cef09cc4,2022-03-06T19:13:58.900+00:00,"Hello Visitor!
+This information is in <a href=""/about#0"" target=""_blank"">the about me section</a>.",2022-03-06T19:13:58.900Z,0,3,Visitor,3,"Hello Anna!
+Where are you from?",,25
+62250900f5216050cef09cc5,,"<p>Hey!</p>
+<p>Everything I used to create this website is listed in <a href=""/about#8"" target=""_blank"">my hard skills</a>.</p>
+
+<p>I published the full site on Heroku.</br>
+Frontend without backend published on Github pages.</p>",2022-03-06T19:18:24.100Z,0,4,,3,"Hey!
+What did you use to create this website?",This website,41
+6225091df5216050cef09cc6,,,2022-03-06T19:18:53.291Z,0,3,null,2,"Hello, I have a question about your development.
+
+Are you planning to learn more about Node.js and another frontend framework like React?",,12
+6225093af5216050cef09cc7,2022-03-06T19:19:22.267Z,"<p>Hey!</p>
+
+<p>On this site, I use a free database to showcase my skills. The free database has a limit on the number of queries.</p>
+
+<p>If you want to view a website on Heroku but it won't open, please contact me and I will relaunch the website with a new database.</p>",2022-03-06T19:19:22.267Z,1,2,null,3,"Hey!
+I want to see the site on Heroku, but it won't open.
+What happened? Why is the site not working?",Website not working,25
+622929f217c22a9b69632050,,,2022-03-09T22:28:02.538Z,0,0,,0,"Hello!
+What do you do in your free time?",,2
+62292abf17c22a9b69632051,,,2022-03-09T22:31:27.464Z,0,1,,0,Hey! Are you interested in relocate to other countries?,,5
