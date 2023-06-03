@@ -1,6 +1,6 @@
 <template>
   <v-footer dark padless>
-    <v-card class="flex pa-0 mx-auto" flat tile max-width="1920px">
+    <v-card class="flex pa-0 mx-auto" flat tile>
       <v-card-title class="py-1" style="font-size: 0.88rem">
         &copy;2022 <strong class="ml-2">N_&_N</strong>
 
